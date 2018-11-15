@@ -7,7 +7,7 @@ body{
 }
 
 header{
-    background-image: url("/assets/img/companylogoBG.jpg");
+    background-image: url("../img/companylogoBG.jpg");
     background-size: cover;
     color: white;
     text-transform: uppercase;
