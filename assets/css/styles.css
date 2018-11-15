@@ -1,0 +1,145 @@
+body{
+    background-image: url("/assets/img/background.jpeg");
+   background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+header{
+    background-image: url("/assets/img/companylogoBG.jpg");
+    background-size: cover;
+    color: white;
+    text-transform: uppercase;
+    text-align: center;
+   padding-top: 20px;
+}
+
+header, article, footer, form{
+    width: 50%;
+    margin: auto;
+    font-family: "Arial";
+    
+}
+
+header, article, form{
+    font-size: 25pt;
+
+}
+
+footer{
+    text-align: center;
+    color: white;
+    background-color: #000000;
+}
+
+article{
+    margin-top: -20px;
+    background-color: #2699FB;
+    color: white;
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 25pt;
+    font-family: "Arial";
+    
+}
+
+
+article > img{
+    width: 100%;
+}
+article > h1{
+    padding: 6pt 0 0 0;
+    margin: 2pt 0 0 0;
+}
+
+
+ul{
+    background-color: #707070;
+    width: 100%;
+    text-align: center;
+    text-transform: uppercase;
+    padding: 5px 0;
+    font-family: "Arial";
+    font-size: 15pt;
+}
+
+ul > li, ul > li > a{
+    display: inline-block;
+    color: white;
+    width: 32%;
+        text-decoration-line: none;
+
+}
+
+.background-movie {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: -1;
+}
+
+section{
+    background-color: white;
+}
+
+.product{
+    width: 32%;
+    height: 130px;
+}
+
+form{
+    background-color:#F5F5F5;
+    padding-bottom: 20px;
+}
+
+p{
+    margin: 0pt 0pt 0pt 50pt;
+         font-family: "Arial";
+    color: #AAAAAA;
+
+}
+
+input{
+    margin: auto;
+    width: 72.5%;
+    border-style: solid;
+    background-color: #2699FB;
+    display: block;
+    color: white;
+    font-family: "Arial";
+    font-size: 15pt;
+    
+
+}
+
+
+fieldset{
+    width: 70%;
+    font-family: "Arial";
+    font-size: 15pt;
+    color: #AAAAAA;
+    margin: auto;
+    margin-bottom: 10px;
+    padding: 4pt;
+}
+
+ .contactFormFieldset > input, textarea{
+    width: 100%;
+    border: none;
+     margin: 0 0 0 0;
+     background-color: white;
+     font-size: 15pt;
+     font-family: "Arial";
+}
+
+select{
+    width: 60%;
+    float: right;
+}
+
+
+@media only screen and (max-width: 800px) {
+   
+}
+
