@@ -1,0 +1,3 @@
+student name : Tomas van der Rijst 
+student number : 632790
+student class : INF1SA
